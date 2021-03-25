@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="z00421te"/>
 <entry key="authored-when" type="xstring" value="2021-03-17 14:35:27 +0530"/>
 <entry key="lastEdited-by" type="xstring" value="z00421te"/>
-<entry key="lastEdited-when" type="xstring" value="2021-03-24 10:04:44 +0530"/>
+<entry key="lastEdited-when" type="xstring" value="2021-03-25 14:14:07 +0530"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -174,6 +174,22 @@
 </config>
 </config>
 </config>
+<config key="node_702">
+<entry key="id" type="xint" value="702"/>
+<entry key="node_settings_file" type="xstring" value="Column Expressions (#702)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="1304"/>
+<entry key="1" type="xint" value="677"/>
+<entry key="2" type="xint" value="128"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
 </config>
 <config key="connections">
 <config key="connection_0">
@@ -285,6 +301,16 @@
 <config key="connection_11">
 <entry key="sourceID" type="xint" value="700"/>
 <entry key="destID" type="xint" value="701"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+<config key="ui_settings">
+<entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+</config>
+</config>
+<config key="connection_12">
+<entry key="sourceID" type="xint" value="701"/>
+<entry key="destID" type="xint" value="702"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
