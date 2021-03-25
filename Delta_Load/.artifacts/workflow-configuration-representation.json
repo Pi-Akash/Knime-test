@@ -1,0 +1,22 @@
+
+{
+    "TableToRead-28": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "Table Name",
+        "description": "Name of the table that should be read from the data lake, e.g. T_OPTY",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "P_CPQ_P_ACTIVE_QUOTES_MV"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "P_CPQ_P_ACTIVE_QUOTES_MV"
+        },
+        "regex": "",
+        "errorMessage": "",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 60,
+        "multilineEditorHeight": 5
+    }
+}

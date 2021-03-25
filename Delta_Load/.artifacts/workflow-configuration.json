@@ -1,0 +1,8 @@
+
+{
+    "TableToRead-28": {
+        "label": "Table Name",
+        "type": "string",
+        "default": "P_CPQ_P_ACTIVE_QUOTES_MV"
+    }
+}
