@@ -10,22 +10,26 @@
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 1,
-                "successor": "n/a"
+                "successor": "org.knime.core.node.workflow.SubNodeContainer"
             }
         ],
         "metaNodes": {
         },
         "wrappedNodes": {
+            "nrexecs": 0,
+            "nrfails": 0,
+            "exectime": 0,
+            "nrcreated": 0
         }
     },
-    "uptime": 180050,
-    "workflowsOpened": 1,
+    "uptime": 191486,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 1,
+    "launches": 3,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 180050,
-    "crashes": 0,
+    "timeSinceLastStart": 297581,
+    "crashes": 1,
     "properlyShutDown": false
 }

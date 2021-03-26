@@ -1,0 +1,23 @@
+
+{
+    "version": "4.3.1.v202101261633",
+    "created": "2021-03-26 16:40",
+    "nodestats": {
+        "nodes": [
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 7058,
+    "workflowsOpened": 0,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 7060,
+    "crashes": 0,
+    "properlyShutDown": true
+}
