@@ -23,6 +23,10 @@
 </config>
 <entry key="customDescription" type="xstring" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Oracle Connector 0:698:0:1: Errors loading flow variables into node : Could not find the [Oracle] database driver.%%00010Snowflake - Connect 0:698:0:0: DB Connector 0:698:0:0:0:3: Please select a database type.%%00010Status: Error: Data Lake - Connect 0:698%%00010  Status: Error: Oracle Connector 0:698:0:1%%00010    Status: Error: Loading model settings failed: Could not find the [Oracle] database driver.%%00010    Status: Warning: State has changed from CONFIGURED to IDLE%%00010  Status: Error: Snowflake - Connect 0:698:0:0%%00010    Status: Error: DB Connector 0:698:0:0:0:3%%00010      Status: Error: Loading model settings failed: Could not find the [Snowflake] database driver.%%00010      Status: Warning: State has changed from CONFIGURED to IDLE"/>
+</config>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="2"/>
 <config key="inports"/>

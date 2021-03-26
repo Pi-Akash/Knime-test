@@ -910,17 +910,21 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Please select a database type."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.database.node.connector.generic.DBConnectorNodeFactory"/>
 <entry key="node-name" type="xstring" value="DB Connector"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.1.v202101261633"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.2.v202103021015"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.1.v202101261633"/>
+<entry key="node-feature-version" type="xstring" value="4.3.2.v202103021015"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="DB Connector"/>
 <entry key="hasContent" type="xboolean" value="false"/>
