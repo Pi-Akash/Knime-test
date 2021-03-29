@@ -27,3 +27,17 @@
 2021-03-26 16:46:40,208 : WARN  : ModalContext :  : Node : DB Connector : 0:698:0:0:0:3 : Please select a database type.
 2021-03-26 16:46:40,233 : WARN  : ModalContext :  : Node : Oracle Connector : 0:698:0:1 : Errors loading flow variables into node : Could not find the [Oracle] database driver.
 2021-03-26 16:46:40,237 : WARN  : ModalContext :  : Node : DB Connector : 0:698:0:0:0:3 : Please select a database type.
+2021-03-29 09:59:20,995 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : The extrinsic Method could not be executed.
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : MetadataError: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputer 
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    Status], CimException
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : MI RESULT 16,Get-MpComputerStatus
+2021-03-29 09:59:21,015 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2021-03-29 10:00:15,099 : WARN  : ModalContext :  : Node : Oracle Connector : 0:698:0:1 : Errors loading flow variables into node : Could not find the [Oracle] database driver.
+2021-03-29 10:00:15,772 : WARN  : ModalContext :  : Node : DB Connector : 0:698:0:0:0:3 : Please select a database type.
+2021-03-29 10:00:15,863 : WARN  : ModalContext :  : Node : Oracle Connector : 0:698:0:1 : Errors loading flow variables into node : Could not find the [Oracle] database driver.
+2021-03-29 10:00:15,896 : WARN  : ModalContext :  : Node : DB Connector : 0:698:0:0:0:3 : Please select a database type.

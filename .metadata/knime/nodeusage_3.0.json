@@ -10,7 +10,15 @@
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 1,
-                "successor": "org.knime.core.node.workflow.SubNodeContainer"
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id": "org.knime.database.node.io.reader.DBReadNodeFactory#DB Reader",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter"
             }
         ],
         "metaNodes": {
@@ -22,14 +30,14 @@
             "nrcreated": 0
         }
     },
-    "uptime": 191486,
+    "uptime": 4835265,
     "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 3,
+    "launches": 4,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 297581,
+    "timeSinceLastStart": 8410593,
     "crashes": 1,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
